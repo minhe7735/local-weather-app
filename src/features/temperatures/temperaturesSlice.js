@@ -28,7 +28,7 @@ export const temperaturesSlice = createSlice({
             state.weather = action.payload;
         },
         loadIcon: (state, action) => {
-            state.icon = `http://openweathermap.org/img/wn/${action.payload}@2x.png`;
+            state.icon = `https://openweathermap.org/img/wn/${action.payload}@2x.png`;
         },
     },
 });
